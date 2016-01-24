@@ -19,4 +19,4 @@
 
 ###说明：
 使用[ZPar](https://github.com/SUTDNLP/ZPar)，利用训练语料，设置50次迭代来训练分词模型，选出在开发语料上F值最高的模型，分别是PKU：model.50、MSR：model.34、CTB60：model.15,对测试语料进行测试，得出结果。<br><br>
-使用[NNSegmentation](https://github.com/SUTDNLP/NNSegmentation)，利用训练语料，设置1000次迭代来训练SparseCRFMMLabeler分词模型，得出在开发语料上F值最高的模型，以及该模型对测试语料进行测试的最终结果。
+使用[NNSegmentation](https://github.com/SUTDNLP/NNSegmentation)，利用训练语料，设置500次迭代来训练SparseCRFMMLabeler分词模型，得出在开发语料上F值最高的模型，以及该模型对测试语料进行测试的最终结果。
